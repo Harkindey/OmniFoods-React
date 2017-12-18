@@ -2,9 +2,13 @@ import React  from 'react';
 
 const Header = () => {
     return (
-        <div>
-            <h1>Omnifood</h1>
-        </div>
+        <header>
+            <div className="hero-text-box">
+                <h1>Goodbye junk food. Hello super healthy meals.</h1>
+                <a href="#">I’m hungry</a>
+                <a href="#">Show me more</a>
+            </div>
+        </header>
     )
 }
 
