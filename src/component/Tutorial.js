@@ -7,10 +7,10 @@ const Tutorial = () => {
                 <h2>How it works &mdash; Simple as 1, 2, 3</h2>
             </div>
             <div className="row">
-                <div className="col span-1-of-2">
+                <div className="col span-1-of-2 steps-box">
                     <img src="./assets/app-iPhone.png" alt="Omnifood Iphone app" className="app-screen"/>
                 </div>
-                <div className="col span-1-of-2"> 
+                <div className="col span-1-of-2 steps-box"> 
                     <div className="works-step">
                         <div>1</div>
                         <p>Choose the subscription plan that best fits your needs and sign up today</p>

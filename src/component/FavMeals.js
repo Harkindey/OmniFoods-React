@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const FavMeals =  () => {
     return(
         <section className="section-meals">
-            <ul className="meals-showcase">
+            <ul className="meals-showcase clearfix">
                 <li>
                     <figure className="meal-photo">
                         <img src="./assets/1.jpg" alt= "Korean bibimbap with egg and vegetables"/>
@@ -25,7 +25,7 @@ const FavMeals =  () => {
                     </figure>
                 </li>
             </ul>
-            <ul className="meals-showcase">
+            <ul className="meals-showcase clearfix">
                 <li>
                     <figure className="meal-photo">
                         <img src="./assets/5.jpg" alt= "Paleo beef steak with vegetables"/>
