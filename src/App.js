@@ -9,6 +9,7 @@ import Tutorial from './component/Tutorial';
 import Cities from './component/Cities';
 import Testimonial from './component/Testimonial';
 import SignUp from './component/SignUp';
+import ContactForm from './component/ContactForm';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Cities />
           <Testimonial/>
           <SignUp />
+          <ContactForm />
        </div>
     );
   }
