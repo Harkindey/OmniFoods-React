@@ -5,6 +5,7 @@ import './css/grid.css'
 import Header from './component/Header';
 import Features from './component/Features';
 import FavMeals from './component/FavMeals';
+import Tutorial from './component/Tutorial';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <Header />
           <Features />
           <FavMeals />
+          <Tutorial />
        </div>
     );
   }
