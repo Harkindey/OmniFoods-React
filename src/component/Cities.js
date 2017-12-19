@@ -3,7 +3,7 @@ import Ionicon from 'react-ionicons';
 
 const Cities = () => {
     return(
-        <section classname="section-cities">
+        <section className="section-cities">
             <div className="row">
                 <h2>We're currently in these cities</h2>
             </div>
