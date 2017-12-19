@@ -8,6 +8,7 @@ import FavMeals from './component/FavMeals';
 import Tutorial from './component/Tutorial';
 import Cities from './component/Cities';
 import Testimonial from './component/Testimonial';
+import SignUp from './component/SignUp';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           <Tutorial />
           <Cities />
           <Testimonial/>
+          <SignUp />
        </div>
     );
   }
