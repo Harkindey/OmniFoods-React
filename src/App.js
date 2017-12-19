@@ -7,6 +7,7 @@ import Features from './component/Features';
 import FavMeals from './component/FavMeals';
 import Tutorial from './component/Tutorial';
 import Cities from './component/Cities';
+import Testimonial from './component/Testimonial';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <FavMeals />
           <Tutorial />
           <Cities />
+          <Testimonial/>
        </div>
     );
   }
