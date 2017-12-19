@@ -4,6 +4,7 @@ import './css/App.css';
 import './css/grid.css'
 import Header from './component/Header';
 import Features from './component/Features';
+import FavMeals from './component/FavMeals';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
        <div>
           <Header />
           <Features />
+          <FavMeals />
        </div>
     );
   }
