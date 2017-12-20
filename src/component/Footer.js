@@ -3,8 +3,8 @@ import Ionicon from 'react-ionicons';
 
 const Footer = () => {
     return (
-        <footer>
-            <div class="row">
+        <footer className="section-footer">
+            <div className="row">
                 <div className="col span-1-of-2">
                     <ul className="footer-nav">
                         <li><a href="#">About us</a></li>
@@ -16,10 +16,10 @@ const Footer = () => {
                 </div>
                 <div className="col span-1-of-2">
                     <ul className="social-links">
-                        <li><a href="#"><Ionicon icon="logo-facebook" fontSize="24" color="#e67e22" style={styles.iconStyle} /></a></li>
-                        <li><a href="#"><Ionicon icon="logo-twitter" fontSize="24" color="#e67e22" style={styles.iconStyle} /></a></li>
-                        <li><a href="#"><Ionicon icon="logo-googleplus"fontSize="24" color="#e67e22" style={styles.iconStyle} /></a></li>
-                        <li><a href="#"><Ionicon icon="logo-instagram"  fontSize="24" color="#e67e22" style={styles.iconStyle} /></a></li>
+                        <li><a href="#"><Ionicon icon="logo-facebook" fontSize="24" color="" style={styles.iconStyle} /></a></li>
+                        <li><a href="#"><Ionicon icon="logo-twitter" fontSize="24" color="" style={styles.iconStyle} /></a></li>
+                        <li><a href="#"><Ionicon icon="logo-googleplus"fontSize="24" color="" style={styles.iconStyle} /></a></li>
+                        <li><a href="#"><Ionicon icon="logo-instagram"  fontSize="24" color="" style={styles.iconStyle} /></a></li>
                     </ul>
                 </div>
             </div>
@@ -34,7 +34,7 @@ const Footer = () => {
 
 const styles = {
     iconStyle:{
-        
+
     }
 }
 
