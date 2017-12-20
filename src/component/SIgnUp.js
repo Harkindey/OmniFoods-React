@@ -16,10 +16,10 @@ const SignUp = () => {
                         </div>
                         <div>
                             <ul>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal every day</li>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
+                                <li><i className="ion-ios-checkmark-empty icon-small"></i>1 meal every day</li>
+                                <li><i className="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                                <li><i className="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                                <li><i className="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                             </ul>
                         </div>
                         <div>
@@ -36,10 +36,10 @@ const SignUp = () => {
                         </div>
                         <div>
                             <ul>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal 10 days/month</li>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
+                                <li><i className="ion-ios-checkmark-empty icon-small"></i>1 meal 10 days/month</li>
+                                <li><i className="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                                <li><i className="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                                <li><i className="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                             </ul>
                         </div>
                         <div>
@@ -56,10 +56,10 @@ const SignUp = () => {
                         </div>
                         <div>
                             <ul>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal</li>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
-                                <li><i class="ion-ios-close-empty icon-small"></i>Access to newest creations</li>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
+                                <li><i className="ion-ios-checkmark-empty icon-small"></i>1 meal</li>
+                                <li><i className="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                                <li><i className="ion-ios-close-empty icon-small"></i>Access to newest creations</li>
+                                <li><i className="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                             </ul>
                         </div>
                         <div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import 'normalize.css';
 import './css/App.css';
 import './css/grid.css'
+import './css/queries.css';
 import Header from './component/Header';
 import Features from './component/Features';
 import FavMeals from './component/FavMeals';

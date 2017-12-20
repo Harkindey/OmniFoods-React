@@ -15,10 +15,10 @@ const Footer = () => {
                 </div>
                 <div className="col span-1-of-2">
                     <ul className="social-links">
-                        <li><a href="#"><i class="ion-social-facebook" /></a></li>
-                        <li><a href="#"><i class="ion-social-twitter" /></a></li>
-                        <li><a href="#"><i class="ion-social-googleplus" /></a></li>
-                        <li><a href="#"><i class="ion-social-instagram" /></a></li>
+                        <li><a href="#"><i className="ion-social-facebook" /></a></li>
+                        <li><a href="#"><i className="ion-social-twitter" /></a></li>
+                        <li><a href="#"><i className="ion-social-googleplus" /></a></li>
+                        <li><a href="#"><i className="ion-social-instagram" /></a></li>
                     </ul>
                 </div>
             </div>
