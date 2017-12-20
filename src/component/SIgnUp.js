@@ -17,10 +17,10 @@ const SignUp = () => {
                         </div>
                         <div>
                             <ul>
-                                <li><Ionicons icon="ios-checkmark" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />1 meal every day</li>
-                                <li><Ionicons icon="ios-checkmark" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />Order 24/7</li>
-                                <li><Ionicons icon="ios-checkmark" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />Access to newest creations</li>
-                                <li><Ionicons icon="ios-checkmark" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />Free delivery</li>
+                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />1 meal every day</li>
+                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Order 24/7</li>
+                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Access to newest creations</li>
+                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Free delivery</li>
                             </ul>
                         </div>
                         <div>
@@ -37,10 +37,10 @@ const SignUp = () => {
                         </div>
                         <div>
                             <ul>
-                                <li><Ionicons icon="ios-checkmark" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />1 meal 10 days/month</li>
-                                <li><Ionicons icon="ios-checkmark" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />Order 24/7</li>
-                                <li><Ionicons icon="ios-checkmark" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />Access to newest creations</li>
-                                <li><Ionicons icon="ios-checkmark" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />Free delivery</li>
+                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />1 meal 10 days/month</li>
+                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Order 24/7</li>
+                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Access to newest creations</li>
+                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Free delivery</li>
                             </ul>
                         </div>
                         <div>
@@ -57,10 +57,10 @@ const SignUp = () => {
                         </div>
                         <div>
                             <ul>
-                                <li><Ionicons icon="ios-checkmark" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />1 meal</li>
-                                <li><Ionicons icon="ios-checkmark" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />Order 24/7</li>
-                                <li><Ionicons icon="ios-close" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />Access to newest creations</li>
-                                <li><Ionicons icon="ios-checkmark" style={{}} fontSize="24" color="#e67e22" style={styles.iconStyle} />Free delivery</li>
+                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />1 meal</li>
+                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Order 24/7</li>
+                                <li><Ionicons icon="ios-close" fontSize="24" color="#e67e22" style={styles.iconStyle} />Access to newest creations</li>
+                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Free delivery</li>
                             </ul>
                         </div>
                         <div>

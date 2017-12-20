@@ -10,6 +10,7 @@ import Cities from './component/Cities';
 import Testimonial from './component/Testimonial';
 import SignUp from './component/SignUp';
 import ContactForm from './component/ContactForm';
+import Footer from './component/Footer';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <Testimonial/>
           <SignUp />
           <ContactForm />
+          <Footer />
        </div>
     );
   }
