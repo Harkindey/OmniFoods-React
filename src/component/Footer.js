@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Ionicon from 'react-ionicons'; 
 
 const Footer = () => {
     return (
@@ -16,10 +15,10 @@ const Footer = () => {
                 </div>
                 <div className="col span-1-of-2">
                     <ul className="social-links">
-                        <li><a href="#"><Ionicon icon="logo-facebook" fontSize="24" color="" style={styles.iconStyle} /></a></li>
-                        <li><a href="#"><Ionicon icon="logo-twitter" fontSize="24" color="" style={styles.iconStyle} /></a></li>
-                        <li><a href="#"><Ionicon icon="logo-googleplus"fontSize="24" color="" style={styles.iconStyle} /></a></li>
-                        <li><a href="#"><Ionicon icon="logo-instagram"  fontSize="24" color="" style={styles.iconStyle} /></a></li>
+                        <li><a href="#"><i class="ion-social-facebook" /></a></li>
+                        <li><a href="#"><i class="ion-social-twitter" /></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus" /></a></li>
+                        <li><a href="#"><i class="ion-social-instagram" /></a></li>
                     </ul>
                 </div>
             </div>

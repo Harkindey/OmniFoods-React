@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Ionicons from 'react-ionicons';
 
 const SignUp = () => {
     return(
@@ -17,10 +16,10 @@ const SignUp = () => {
                         </div>
                         <div>
                             <ul>
-                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />1 meal every day</li>
-                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Order 24/7</li>
-                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Access to newest creations</li>
-                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Free delivery</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal every day</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                             </ul>
                         </div>
                         <div>
@@ -37,10 +36,10 @@ const SignUp = () => {
                         </div>
                         <div>
                             <ul>
-                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />1 meal 10 days/month</li>
-                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Order 24/7</li>
-                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Access to newest creations</li>
-                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Free delivery</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal 10 days/month</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                             </ul>
                         </div>
                         <div>
@@ -57,10 +56,10 @@ const SignUp = () => {
                         </div>
                         <div>
                             <ul>
-                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />1 meal</li>
-                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Order 24/7</li>
-                                <li><Ionicons icon="ios-close" fontSize="24" color="#e67e22" style={styles.iconStyle} />Access to newest creations</li>
-                                <li><Ionicons icon="ios-checkmark" fontSize="24" color="#e67e22" style={styles.iconStyle} />Free delivery</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                                <li><i class="ion-ios-close-empty icon-small"></i>Access to newest creations</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
                             </ul>
                         </div>
                         <div>

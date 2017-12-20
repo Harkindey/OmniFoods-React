@@ -67,6 +67,20 @@ h2:after {
   margin-bottom: 10px;
 }
 
+.icon-small{
+  display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
 /* -------LINKS------- */
 a:link,
 a:visited{
@@ -429,6 +443,7 @@ input[type=checkbox] {
 .section-footer {
     background-color: #333;
     padding: 50px;
+    font-size: 80%;
 }
 
 .footer-nav{
@@ -459,6 +474,7 @@ input[type=checkbox] {
     text-decoration: none;
     border: 0;
     color: #888;
+    transition: color 0.2s;
 }
 
 .footer-nav li a:hover,
@@ -468,13 +484,31 @@ input[type=checkbox] {
 
 .social-links li a:link,
 .social-links li a:visited {
-  font-size: 180%;
-  
+  font-size: 160%;
+}
+
+ion-social-facebook
+ion-social-twitter
+ion-social-googleplus
+ion-social-instagram{
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover{ 
+  color:#3b5998;
+}
+.ion-social-twitter:hover{
+  color: #00aced;
+}
+.ion-social-googleplus:hover{
+  color:#dd4b39;
+}
+.ion-social-instagram:hover{
+  color: #517fa4;
 }
 
 footer p {
   color: #888;
   text-align: center;
-  font-size: 90%;
-  margin-top: 30px;
+  margin-top: 20px;
 }
