@@ -1,6 +1,18 @@
 import React, { Component } from 'react';
+import Waypoint from 'react-waypoint';
 
 class SignUp extends Component {
+    constructor() {
+        super();
+        this.state = {
+            animateStyle : ''
+        }
+    }
+    animite = () => {
+        this.setState({
+            animateStyle: 'animated pulse'
+        })
+    }
 
     render() {
         return(
@@ -10,24 +22,26 @@ class SignUp extends Component {
                 </div>
                 <div className="row">
                     <div className="col span-1-of-3">
-                        <div className="plan-box">
-                            <div>
-                                <h3>Premium</h3>
-                                <p className="plan-price">$399 <span> / month</span></p>
-                                <p className="plan-price-meal">That’s only 13.30$ per meal</p>
+                        <Waypoint onEnter={this.animite} bottomOffset="50%">
+                            <div className={`plan-box js--wp-4 ${this.state.animateStyle}`}>
+                                <div>
+                                    <h3>Premium</h3>
+                                    <p className="plan-price">$399 <span> / month</span></p>
+                                    <p className="plan-price-meal">That’s only 13.30$ per meal</p>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><i className="ion-ios-checkmark-empty icon-small"></i>1 meal every day</li>
+                                        <li><i className="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                                        <li><i className="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                                        <li><i className="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <a href="#" className="btn btn-full">Sign Up now</a>
+                                </div>
                             </div>
-                            <div>
-                                <ul>
-                                    <li><i className="ion-ios-checkmark-empty icon-small"></i>1 meal every day</li>
-                                    <li><i className="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
-                                    <li><i className="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
-                                    <li><i className="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <a href="#" className="btn btn-full">Sign Up now</a>
-                            </div>
-                        </div>
+                        </Waypoint>
                     </div>
                     <div className="col span-1-of-3">
                         <div className="plan-box">

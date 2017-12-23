@@ -1,6 +1,19 @@
 import React, { Component } from 'react';
+import Waypoint from 'react-waypoint';
 
 class Tutorial extends Component {
+    constructor() {
+        super();
+        this.state = {
+            animateStyle : ''
+        }
+    }
+    animite = () => {
+        this.setState({
+            animateStyle: 'animated fadeInUp'
+        })
+    }
+
     render () {
         return(
             <section className="section-steps">
@@ -8,9 +21,11 @@ class Tutorial extends Component {
                     <h2>How it works &mdash; Simple as 1, 2, 3</h2>
                 </div>
                 <div className="row">
-                    <div className="col span-1-of-2 steps-box">
-                        <img src="./assets/app-iPhone.png" alt="Omnifood Iphone app" className="app-screen"/>
-                    </div>
+                    <Waypoint onEnter={this.animite} bottomOffset="50%">
+                        <div className="col span-1-of-2 steps-box">
+                            <img src="./assets/app-iPhone.png" alt="Omnifood Iphone app" className={`app-screen js--wp-2 ${this.state.animateStyle}`}/>
+                        </div>
+                    </Waypoint>
                     <div className="col span-1-of-2 steps-box"> 
                         <div className="works-step">
                             <div>1</div>

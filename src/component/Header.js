@@ -28,7 +28,7 @@ class Header extends Component {
 
     render() {
         return (
-            <Waypoint onLeave={this.staySticky} onEnter={this.stickSticky} topOffset='60px'>
+            <Waypoint onLeave={this.staySticky} onEnter={this.stickSticky} topOffset='60px' >
                 <header >
                     <nav className={this.state.headerStyle}>
                         <div className="row">
