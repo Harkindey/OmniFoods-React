@@ -16,9 +16,6 @@ import ContactForm from './component/ContactForm';
 import Footer from './component/Footer';
 
 class App extends Component {
-  componentDidMount(){
-    console.log(this.refs)
-  }
 
   scrollPlan = () => {
     scrollToComponent(this.refs.plan, {

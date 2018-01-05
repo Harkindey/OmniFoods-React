@@ -3,9 +3,6 @@ import Waypoint from 'react-waypoint';
 import PropTypes from 'prop-types';
 
 class Header extends Component {
-    componentDidMount(){
-        console.log(this.props);
-    }
     constructor(){
         super()
         this.state = {
@@ -14,7 +11,6 @@ class Header extends Component {
     }
 
     staySticky = (obj) => {
-      //const style =  (obj.currentPosition === 'inside') ? '' : 'sticky';
         this.setState({
             headerStyle: 'sticky'
         })
@@ -40,6 +36,7 @@ class Header extends Component {
                                 <li><a href="#" onClick={() => this.props.func[2]()}>Our cities</a></li>
                                 <li><a href="#" onClick={() => this.props.func[0]()}>Sign up</a></li>
                             </ul>
+                            <a className="mobile-nav-icon" onClick={this.iconAction}><i class="ion-navicon-round"></i></a>
                         </div>
                     </nav>
                     <div className="hero-text-box">
