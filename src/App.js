@@ -16,7 +16,6 @@ import ContactForm from './component/ContactForm';
 import Footer from './component/Footer';
 
 class App extends Component {
-
   scrollPlan = () => {
     scrollToComponent(this.refs.plan, {
       align: 'top',
@@ -45,7 +44,6 @@ class App extends Component {
     });
   }
   
-
   render() {
     return (
        <div>

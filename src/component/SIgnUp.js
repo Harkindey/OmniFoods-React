@@ -89,15 +89,4 @@ class SignUp extends Component {
     }
 }
 
-const styles = {
-    iconStyle:{
-        fontSize: "100%",
-        textAlign: 'center',
-        lineHeight: "120%",
-        verticalAlign: 'middle',
-        marginTop: "-6px",
-        marginRight: "10px"
-    }
-}
-
 export default SignUp;

@@ -594,3 +594,7 @@ footer p {
 .js--wp-3.animated {
   opacity: 1;
 }
+
+.js-main-nav {
+  display: block;
+}

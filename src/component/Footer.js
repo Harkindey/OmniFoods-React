@@ -31,10 +31,4 @@ const Footer = () => {
     )
 }
 
-const styles = {
-    iconStyle:{
-
-    }
-}
-
 export default Footer;

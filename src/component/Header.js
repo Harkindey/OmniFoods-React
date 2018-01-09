@@ -1,12 +1,13 @@
 import React,{ Component }  from 'react';
 import Waypoint from 'react-waypoint';
-import PropTypes from 'prop-types';
+import $ from "jquery";
 
 class Header extends Component {
     constructor(){
         super()
         this.state = {
-            headerStyle : ''
+            headerStyle : '',
+            mobileIcon: 'ion-navicon-round'
         }
     }
 
@@ -22,6 +23,15 @@ class Header extends Component {
         })
     }
 
+    iconAction = () => {
+        $(this.refs['toggle-menu']).slideToggle(200);
+        this.setState((state, props) => {
+                if (state.mobileIcon === 'ion-navicon-round') {
+                return {mobileIcon: 'ion-close-round' } } else{
+                return {mobileIcon: 'ion-navicon-round'}}
+        });
+    }
+
     render() {
         return (
             <Waypoint onLeave={this.staySticky} onEnter={this.stickSticky} topOffset='60px' >
@@ -30,13 +40,13 @@ class Header extends Component {
                         <div className="row">
                             <img src="./assets/logo-white.png" alt="Omnifood logo" className="logo"/>
                             <img src="./assets/logo.png" alt="Omnifood logo" className="logo-black"/>
-                            <ul className="main-nav">
+                            <ul ref="toggle-menu" className="main-nav">
                                 <li><a href='#' onClick={() => this.props.func[3]()}>Food delivery</a></li>
                                 <li><a href="#" onClick={() => this.props.func[1]()}>How it works</a></li>
                                 <li><a href="#" onClick={() => this.props.func[2]()}>Our cities</a></li>
                                 <li><a href="#" onClick={() => this.props.func[0]()}>Sign up</a></li>
                             </ul>
-                            <a className="mobile-nav-icon" onClick={this.iconAction}><i class="ion-navicon-round"></i></a>
+                            <a className="mobile-nav-icon" onClick={this.iconAction}><i class={`${this.state.mobileIcon}`}></i></a>
                         </div>
                     </nav>
                     <div className="hero-text-box">
