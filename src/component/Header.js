@@ -1,4 +1,4 @@
-import React,{ Component }  from 'react';
+import React,{ Component, }  from 'react';
 import Waypoint from 'react-waypoint';
 import $ from "jquery";
 
@@ -7,7 +7,8 @@ class Header extends Component {
         super()
         this.state = {
             headerStyle : '',
-            mobileIcon: 'ion-navicon-round'
+            mobileIcon: 'ion-navicon-round',
+            showNav: true
         }
     }
 
@@ -24,11 +25,11 @@ class Header extends Component {
     }
 
     iconAction = () => {
-        $(this.refs['toggle-menu']).slideToggle(200);
+        //$(this.refs['toggle-menu']).slideToggle(200);
         this.setState((state, props) => {
                 if (state.mobileIcon === 'ion-navicon-round') {
-                return {mobileIcon: 'ion-close-round' } } else{
-                return {mobileIcon: 'ion-navicon-round'}}
+                return {mobileIcon: 'ion-close-round', showNav: true  } } else{
+                return {mobileIcon: 'ion-navicon-round' , showNav: false  }}
         });
     }
 
@@ -40,12 +41,12 @@ class Header extends Component {
                         <div className="row">
                             <img src="./assets/logo-white.png" alt="Omnifood logo" className="logo"/>
                             <img src="./assets/logo.png" alt="Omnifood logo" className="logo-black"/>
-                            <ul ref="toggle-menu" className="main-nav">
+                            {(this.state.showNav) ? <ul ref="toggle-menu" className="main-nav">
                                 <li><a href='#' onClick={() => this.props.func[3]()}>Food delivery</a></li>
                                 <li><a href="#" onClick={() => this.props.func[1]()}>How it works</a></li>
                                 <li><a href="#" onClick={() => this.props.func[2]()}>Our cities</a></li>
                                 <li><a href="#" onClick={() => this.props.func[0]()}>Sign up</a></li>
-                            </ul>
+                            </ul> : null}
                             <a className="mobile-nav-icon" onClick={this.iconAction}><i class={`${this.state.mobileIcon}`}></i></a>
                         </div>
                     </nav>
