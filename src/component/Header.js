@@ -12,6 +12,15 @@ class Header extends Component {
         }
     }
 
+    componentWillMount(){
+        if (window.innerWidth < 767 ) {
+            this.setState({
+                showNav: false,
+                navanime: ''
+            })
+        }
+    }
+
     staySticky = (obj) => {
         this.setState({
             headerStyle: 'sticky'
@@ -28,8 +37,8 @@ class Header extends Component {
         //$(this.refs['toggle-menu']).slideToggle(200);
         this.setState((state, props) => {
                 if (state.mobileIcon === 'ion-navicon-round') {
-                return {mobileIcon: 'ion-close-round', showNav: true  } } else{
-                return {mobileIcon: 'ion-navicon-round' , showNav: false  }}
+                return {mobileIcon: 'ion-close-round', showNav: true, navanime: 'slideInDown'  } } else{
+                return {mobileIcon: 'ion-navicon-round' , showNav: false, navanime: 'slideOutUp'}}
         });
     }
 
@@ -41,7 +50,7 @@ class Header extends Component {
                         <div className="row">
                             <img src="./assets/logo-white.png" alt="Omnifood logo" className="logo"/>
                             <img src="./assets/logo.png" alt="Omnifood logo" className="logo-black"/>
-                            {(this.state.showNav) ? <ul ref="toggle-menu" className="main-nav">
+                            {(this.state.showNav) ? <ul ref="toggle-menu" className={`main-nav animated ${this.state.navanime}`}>
                                 <li><a href='#' onClick={() => this.props.func[3]()}>Food delivery</a></li>
                                 <li><a href="#" onClick={() => this.props.func[1]()}>How it works</a></li>
                                 <li><a href="#" onClick={() => this.props.func[2]()}>Our cities</a></li>
