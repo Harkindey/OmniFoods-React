@@ -43,20 +43,20 @@ class App extends Component {
       duration: 1000
     });
   }
-  
+
   render() {
     return (
-       <div>
-          <Header func ={[this.scrollPlan,this.scrollWorks, this.scrollCities, this.scrollStart]} />
-          <Features ref='start' />
-          <FavMeals />
-          <Tutorial  ref="works"/>
-          <Cities ref="cities" />
-          <Testimonial/>
-          <SignUp ref="plan"/>
-          <ContactForm />
-          <Footer />
-       </div>
+      <div>
+        <Header func={[this.scrollPlan, this.scrollWorks, this.scrollCities, this.scrollStart]} />
+        <Features ref='start' />
+        <FavMeals />
+        <Tutorial ref="works" />
+        <Cities ref="cities" />
+        <Testimonial />
+        <SignUp ref="plan" />
+        <ContactForm />
+        <Footer />
+      </div>
     );
   }
 }
